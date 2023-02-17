@@ -1,0 +1,22 @@
+.moviesContainer{
+    display: grid;
+    width: 100%;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.movie{
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.movie img {
+    border-radius: 8px;
+}
+
+.movie h3,
+.movie p{
+    margin: 0;
+}

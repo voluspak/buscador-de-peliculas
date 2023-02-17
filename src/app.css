@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container header form {
+    display: flex;
+}
+
+.container main{
+    width: 100%;
+}
